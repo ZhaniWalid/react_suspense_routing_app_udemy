@@ -1,0 +1,3 @@
+## ReactJS Sample Web app based on React Suspense
+
+ReactJS Sample Web app built whith "React #16" which is based on "React Suspense" (who is not a data fetching library. It's a mechanism for data fetching libraries to communicate to React that the data a component is reading is not ready yet. React can then wait for it to be ready and update the UI. At Facebook, we use Relay and its new Suspense integration.) to show how we can load "Routes Lazily" ( React.lazy(() => import('./pathToRoute')); ) & it's related to the " React - The Complete Guide (incl Hooks, React Router, Redux) " course by #MaximilianSchwarzmüller on Udemy.
